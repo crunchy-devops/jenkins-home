@@ -1,0 +1,13 @@
+Started at Sat May 09 16:31:43 UTC 2020
+Checking jmeter
+Checking jmeter-petclinic
+Checking petclinic
+Checking petclinic-checkstyle
+Checking petclinic-docker-build
+Checking petclinic-nexus
+Checking petclinic-pipeline
+Checking petclinic-production
+Checking petclinic-sonar
+Checking petclinic-test-application
+Checking petclinic-test-uat
+Finished at Sat May 09 16:31:43 UTC 2020. 9ms

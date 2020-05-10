@@ -1,0 +1,3 @@
+[filesystem "jenkins|Oracle Corporation|1.8.0_232|/dev/vda1"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 0 nanoseconds

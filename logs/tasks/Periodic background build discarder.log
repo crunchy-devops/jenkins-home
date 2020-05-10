@@ -1,0 +1,48 @@
+Started at Sun May 10 04:26:24 UTC 2020
+Processing jmeter
+Offering jmeter to Project Build Discarder
+Processing jmeter-petclinic
+Offering jmeter-petclinic to Project Build Discarder
+Processing petclinic
+Offering petclinic to Project Build Discarder
+Processing petclinic-checkstyle
+Offering petclinic-checkstyle to Project Build Discarder
+Processing petclinic-docker-build
+Offering petclinic-docker-build to Project Build Discarder
+Processing petclinic-nexus
+Offering petclinic-nexus to Project Build Discarder
+Processing petclinic-pipeline
+Offering petclinic-pipeline to Project Build Discarder
+Processing petclinic-production
+Offering petclinic-production to Project Build Discarder
+Processing petclinic-sonar
+Offering petclinic-sonar to Project Build Discarder
+Processing petclinic-test-application
+Offering petclinic-test-application to Project Build Discarder
+Processing petclinic-test-uat
+Offering petclinic-test-uat to Project Build Discarder
+Finished at Sun May 10 04:26:24 UTC 2020. 3ms
+Started at Sun May 10 05:26:24 UTC 2020
+Processing jmeter
+Offering jmeter to Project Build Discarder
+Processing jmeter-petclinic
+Offering jmeter-petclinic to Project Build Discarder
+Processing petclinic
+Offering petclinic to Project Build Discarder
+Processing petclinic-checkstyle
+Offering petclinic-checkstyle to Project Build Discarder
+Processing petclinic-docker-build
+Offering petclinic-docker-build to Project Build Discarder
+Processing petclinic-nexus
+Offering petclinic-nexus to Project Build Discarder
+Processing petclinic-pipeline
+Offering petclinic-pipeline to Project Build Discarder
+Processing petclinic-production
+Offering petclinic-production to Project Build Discarder
+Processing petclinic-sonar
+Offering petclinic-sonar to Project Build Discarder
+Processing petclinic-test-application
+Offering petclinic-test-application to Project Build Discarder
+Processing petclinic-test-uat
+Offering petclinic-test-uat to Project Build Discarder
+Finished at Sun May 10 05:26:24 UTC 2020. 3ms
