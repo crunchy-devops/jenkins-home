@@ -1,0 +1,29 @@
+Started by user [8mha:////4NPafIm/qmVl9uVPEiJ4Nyp2QimJHSOLdG3OlnXxFlYwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mhme
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/jmeter-petclinic
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://gitlab-ce/stagiaire/spring-framework-petclinic.git # timeout=10
+Fetching upstream changes from http://gitlab-ce/stagiaire/spring-framework-petclinic.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- http://gitlab-ce/stagiaire/spring-framework-petclinic.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 18bf888486b46a830169d1e5f027ac42fdd7056c (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 18bf888486b46a830169d1e5f027ac42fdd7056c # timeout=10
+Commit message: "added jmeter"
+First time build. Skipping changelog.
+[jmeter-petclinic] $ /bin/bash -xe /tmp/jenkins7468663866557426776.sh
++ jmeter -Jjmeter.save.saveservice.output_format=xml -Jjmeter.save.saveservice.response_data.on_error=true -n -t tests/trivial/test_petclinic.jmx -l testresult.jlt
+Creating summariser <summary>
+Created the tree successfully using tests/trivial/test_petclinic.jmx
+Starting standalone test @ Mon May 11 12:22:32 UTC 2020 (1589199752442)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:00 =    2.8/s Avg:   113 Min:   113 Max:   113 Err:     1 (100.00%) Active: 1 Started: 1 Finished: 0
+summary +     35 in 00:00:01 =   25.1/s Avg:    83 Min:    79 Max:    93 Err:    35 (100.00%) Active: 0 Started: 3 Finished: 3
+summary =     36 in 00:00:02 =   20.6/s Avg:    84 Min:    79 Max:   113 Err:    36 (100.00%)
+Tidying up ...    @ Mon May 11 12:22:34 UTC 2020 (1589199754699)
+... end of run
+Finished: SUCCESS

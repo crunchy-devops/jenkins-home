@@ -1,0 +1,83 @@
+Started by user [8mha:////4NPafIm/qmVl9uVPEiJ4Nyp2QimJHSOLdG3OlnXxFlYwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mhme
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/python-web-flask
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://gitlab-ce/stagiaire/python-web-flask # timeout=10
+Fetching upstream changes from http://gitlab-ce/stagiaire/python-web-flask
+ > git --version # timeout=10
+ > git fetch --tags --progress -- http://gitlab-ce/stagiaire/python-web-flask +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0e973389fe241774df434db3a9f4790c2317513f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0e973389fe241774df434db3a9f4790c2317513f # timeout=10
+Commit message: "Added more tests and results"
+ > git rev-list --no-walk 0e973389fe241774df434db3a9f4790c2317513f # timeout=10
+[python-web-flask] $ /bin/bash -xe /tmp/jenkins1254636378488389002.sh
++ PYENV_HOME=/var/jenkins_home/workspace/python-web-flask/.sample1/
++ virtualenv --no-site-packages /var/jenkins_home/workspace/python-web-flask/.sample1/
+New python executable in /var/jenkins_home/workspace/python-web-flask/.sample1/bin/python2
+Not overwriting existing python script /var/jenkins_home/workspace/python-web-flask/.sample1/bin/python (you must use /var/jenkins_home/workspace/python-web-flask/.sample1/bin/python2)
+Installing setuptools, pkg_resources, pip, wheel...done.
+Running virtualenv with interpreter /usr/bin/python2
++ . /var/jenkins_home/workspace/python-web-flask/.sample1//bin/activate
+++ deactivate nondestructive
+++ unset -f pydoc
+++ '[' -z '' ']'
+++ '[' -z '' ']'
+++ '[' -n /bin/bash ']'
+++ hash -r
+++ '[' -z '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/var/jenkins_home/workspace/python-web-flask/.sample1
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/var/jenkins_home/workspace/python-web-flask/.sample1/bin:/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export PATH
+++ '[' -z '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' x '!=' x ']'
++++ basename /var/jenkins_home/workspace/python-web-flask/.sample1
+++ PS1='(.sample1) '
+++ export PS1
+++ alias pydoc
+++ '[' -n /bin/bash ']'
+++ hash -r
++ pip install -r requirements.txt
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Requirement already satisfied: Click==7.1.2 in ./.sample1/lib/python2.7/site-packages (from -r requirements.txt (line 1)) (7.1.2)
+Requirement already satisfied: Flask==1.1.2 in ./.sample1/lib/python2.7/site-packages (from -r requirements.txt (line 2)) (1.1.2)
+Requirement already satisfied: itsdangerous==1.1.0 in ./.sample1/lib/python2.7/site-packages (from -r requirements.txt (line 3)) (1.1.0)
+Requirement already satisfied: Jinja2==2.11.2 in ./.sample1/lib/python2.7/site-packages (from -r requirements.txt (line 4)) (2.11.2)
+Requirement already satisfied: MarkupSafe==1.1.1 in ./.sample1/lib/python2.7/site-packages (from -r requirements.txt (line 5)) (1.1.1)
+Requirement already satisfied: Werkzeug==1.0.1 in ./.sample1/lib/python2.7/site-packages (from -r requirements.txt (line 6)) (1.0.1)
+Requirement already satisfied: xmlrunner==1.7.7 in ./.sample1/lib/python2.7/site-packages (from -r requirements.txt (line 7)) (1.7.7)
++ nosetests3 --with-xunit tests.py
+E
+======================================================================
+ERROR: Failure: ImportError (No module named 'tests')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/nose/failure.py", line 39, in runTest
+    raise self.exc_val.with_traceback(self.tb)
+  File "/usr/lib/python3/dist-packages/nose/loader.py", line 418, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/usr/lib/python3/dist-packages/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/usr/lib/python3/dist-packages/nose/importer.py", line 79, in importFromDir
+    fh, filename, desc = find_module(part, path)
+  File "/usr/lib/python3.5/imp.py", line 296, in find_module
+    raise ImportError(_ERR_MSG.format(name), name=name)
+ImportError: No module named 'tests'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
+Build step 'Execute shell' marked build as failure
+Recording test results
+Finished: FAILURE

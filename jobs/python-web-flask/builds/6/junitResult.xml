@@ -1,0 +1,52 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.29">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/workspace/python-web-flask/nosetests.xml</file>
+      <name>nosetests</name>
+      <duration>0.0</duration>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>nose.failure.Failure</className>
+          <testName>runTest</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>Traceback (most recent call last):
+  File &quot;/usr/lib/python3.5/unittest/case.py&quot;, line 59, in testPartExecutor
+    yield
+  File &quot;/usr/lib/python3.5/unittest/case.py&quot;, line 601, in run
+    testMethod()
+  File &quot;/usr/lib/python3/dist-packages/nose/failure.py&quot;, line 39, in runTest
+    raise self.exc_val.with_traceback(self.tb)
+  File &quot;/usr/lib/python3/dist-packages/nose/loader.py&quot;, line 418, in loadTestsFromName
+    addr.filename, addr.module)
+  File &quot;/usr/lib/python3/dist-packages/nose/importer.py&quot;, line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File &quot;/usr/lib/python3/dist-packages/nose/importer.py&quot;, line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File &quot;/usr/lib/python3.5/imp.py&quot;, line 234, in load_module
+    return load_source(name, filename, file)
+  File &quot;/usr/lib/python3.5/imp.py&quot;, line 172, in load_source
+    module = _load(spec)
+  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 693, in _load
+  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 673, in _load_unlocked
+  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 669, in exec_module
+  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 775, in get_code
+  File &quot;&lt;frozen importlib._bootstrap_external&gt;&quot;, line 735, in source_to_code
+  File &quot;&lt;frozen importlib._bootstrap&gt;&quot;, line 222, in _call_with_frames_removed
+  File &quot;/var/jenkins_home/workspace/python-web-flask/test.py&quot;, line 23
+    rv = self.app.get(f&apos;/hello/{name}&apos;)
+                                     ^
+SyntaxError: invalid syntax
+</errorStackTrace>
+          <errorDetails>invalid syntax (test.py, line 23)</errorDetails>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.0</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

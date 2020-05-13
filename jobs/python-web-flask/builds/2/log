@@ -1,0 +1,79 @@
+Started by user [8mha:////4NPafIm/qmVl9uVPEiJ4Nyp2QimJHSOLdG3OlnXxFlYwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mhme
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/python-web-flask
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://gitlab-ce/stagiaire/python-web-flask # timeout=10
+Fetching upstream changes from http://gitlab-ce/stagiaire/python-web-flask
+ > git --version # timeout=10
+ > git fetch --tags --progress -- http://gitlab-ce/stagiaire/python-web-flask +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0e973389fe241774df434db3a9f4790c2317513f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0e973389fe241774df434db3a9f4790c2317513f # timeout=10
+Commit message: "Added more tests and results"
+ > git rev-list --no-walk 0e973389fe241774df434db3a9f4790c2317513f # timeout=10
+[python-web-flask] $ /bin/bash -xe /tmp/jenkins1230912198744338236.sh
++ PYENV_HOME=/var/jenkins_home/workspace/python-web-flask/.sample1/
++ virtualenv --no-site-packages /var/jenkins_home/workspace/python-web-flask/.sample1/
+New python executable in /var/jenkins_home/workspace/python-web-flask/.sample1/bin/python2
+Also creating executable in /var/jenkins_home/workspace/python-web-flask/.sample1/bin/python
+Installing setuptools, pkg_resources, pip, wheel...done.
+Running virtualenv with interpreter /usr/bin/python2
++ . /var/jenkins_home/workspace/python-web-flask/.sample1//bin/activate
+++ deactivate nondestructive
+++ unset -f pydoc
+++ '[' -z '' ']'
+++ '[' -z '' ']'
+++ '[' -n /bin/bash ']'
+++ hash -r
+++ '[' -z '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/var/jenkins_home/workspace/python-web-flask/.sample1
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/var/jenkins_home/workspace/python-web-flask/.sample1/bin:/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export PATH
+++ '[' -z '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' x '!=' x ']'
++++ basename /var/jenkins_home/workspace/python-web-flask/.sample1
+++ PS1='(.sample1) '
+++ export PS1
+++ alias pydoc
+++ '[' -n /bin/bash ']'
+++ hash -r
++ pip install -r requirements.txt
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support
+Collecting Click==7.1.2
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting Flask==1.1.2
+  Downloading Flask-1.1.2-py2.py3-none-any.whl (94 kB)
+Collecting itsdangerous==1.1.0
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Jinja2==2.11.2
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+Collecting MarkupSafe==1.1.1
+  Downloading MarkupSafe-1.1.1-cp27-cp27mu-manylinux1_x86_64.whl (24 kB)
+Collecting Werkzeug==1.0.1
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Collecting xmlrunner==1.7.7
+  Downloading xmlrunner-1.7.7.tar.gz (5.6 kB)
+Building wheels for collected packages: xmlrunner
+  Building wheel for xmlrunner (setup.py): started
+  Building wheel for xmlrunner (setup.py): finished with status 'done'
+  Created wheel for xmlrunner: filename=xmlrunner-1.7.7-py2-none-any.whl size=6235 sha256=1cc96881fb373c7c72623f83c8306186aac493cc57629174363d80f7086dde47
+  Stored in directory: /root/.cache/pip/wheels/d0/0e/a2/37fced66983240cf9bd26e88ef983e51b566caa91cba1e019b
+Successfully built xmlrunner
+Installing collected packages: Click, Werkzeug, itsdangerous, MarkupSafe, Jinja2, Flask, xmlrunner
+Successfully installed Click-7.1.2 Flask-1.1.2 Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 itsdangerous-1.1.0 xmlrunner-1.7.7
++ nosetests --wit-xunit tests
+/tmp/jenkins1230912198744338236.sh: line 6: nosetests: command not found
+Build step 'Execute shell' marked build as failure
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: No test report files were found. Configuration error?
+Finished: FAILURE

@@ -1,0 +1,30 @@
+Started by user [8mha:////4NPafIm/qmVl9uVPEiJ4Nyp2QimJHSOLdG3OlnXxFlYwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mhme
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/python-web-flask
+No credentials specified
+Cloning the remote Git repository
+Cloning repository http://gitlab-ce/stagiaire/python-web-flask
+ > git init /var/jenkins_home/workspace/python-web-flask # timeout=10
+Fetching upstream changes from http://gitlab-ce/stagiaire/python-web-flask
+ > git --version # timeout=10
+ > git fetch --tags --progress -- http://gitlab-ce/stagiaire/python-web-flask +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://gitlab-ce/stagiaire/python-web-flask # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://gitlab-ce/stagiaire/python-web-flask # timeout=10
+Fetching upstream changes from http://gitlab-ce/stagiaire/python-web-flask
+ > git fetch --tags --progress -- http://gitlab-ce/stagiaire/python-web-flask +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0e973389fe241774df434db3a9f4790c2317513f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0e973389fe241774df434db3a9f4790c2317513f # timeout=10
+Commit message: "Added more tests and results"
+First time build. Skipping changelog.
+[python-web-flask] $ /bin/bash -xe /tmp/jenkins4162162416534356960.sh
++ PYENV_HOME=/var/jenkins_home/workspace/python-web-flask/.sample1/
++ virtualenv --no-site-packages /var/jenkins_home/workspace/python-web-flask/.sample1/
+/tmp/jenkins4162162416534356960.sh: line 3: virtualenv: command not found
+Build step 'Execute shell' marked build as failure
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: No test report files were found. Configuration error?
+Finished: FAILURE

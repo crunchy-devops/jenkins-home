@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.29">
+  <suites>
+    <suite>
+      <file>/var/jenkins_home/workspace/python-web-flask/nosetests.xml</file>
+      <name>nosetests</name>
+      <duration>0.0</duration>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>nose.failure.Failure</className>
+          <testName>runTest</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>Traceback (most recent call last):
+  File &quot;/usr/lib/python3.5/unittest/case.py&quot;, line 59, in testPartExecutor
+    yield
+  File &quot;/usr/lib/python3.5/unittest/case.py&quot;, line 601, in run
+    testMethod()
+  File &quot;/usr/lib/python3/dist-packages/nose/failure.py&quot;, line 39, in runTest
+    raise self.exc_val.with_traceback(self.tb)
+  File &quot;/usr/lib/python3/dist-packages/nose/loader.py&quot;, line 407, in loadTestsFromName
+    module = resolve_name(addr.module)
+  File &quot;/usr/lib/python3/dist-packages/nose/util.py&quot;, line 312, in resolve_name
+    module = __import__(&apos;.&apos;.join(parts_copy))
+ImportError: No module named &apos;tests&apos;
+</errorStackTrace>
+          <errorDetails>No module named &apos;tests&apos;</errorDetails>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.0</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>
