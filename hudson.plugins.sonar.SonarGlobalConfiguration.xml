@@ -1,11 +1,11 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <hudson.plugins.sonar.SonarGlobalConfiguration plugin="sonar@2.11">
-  <jenkinsSupplier class="hudson.plugins.sonar.SonarGlobalConfiguration$$Lambda$90/63401088"/>
+  <jenkinsSupplier class="hudson.plugins.sonar.SonarGlobalConfiguration$$Lambda$99/1802443274"/>
   <installations>
     <hudson.plugins.sonar.SonarInstallation>
       <name>SonarQube</name>
       <serverUrl>http://sonar:9000</serverUrl>
-      <credentialsId>d62e3374-2e21-4b75-a409-bb9d91257e3c</credentialsId>
+      <credentialsId>9ebde65c-f237-43c9-9c1d-31d6c9d040a7</credentialsId>
       <webhookSecretId></webhookSecretId>
       <mojoVersion></mojoVersion>
       <additionalProperties></additionalProperties>

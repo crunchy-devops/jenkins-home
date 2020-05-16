@@ -1,0 +1,115 @@
+Started by upstream project "[8mha:////4B5sAuEBLCv97qsN76Y+VYDD/PptO5ir5outKs/AWzp9AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP2C1JJkoI2Zybp5qRWlxfoA87Tex8oAAAA=[0mpetclinic-nexus" build number [8mha:////4KC3IFpdkwJQTLjzqF445OLypbxxzF5rvNLoNGFa42hhAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZx/az8JP2C1JJkoI2Zybp5qRWlxfrGpgBY2+gEzAAAAA==[0m35
+originally caused by:
+ Started by upstream project "[8mha:////4FGNM7HkZgKnrlM0X7lbRS7GgHqnfYhdvS3BrEp4meNAAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYp/az8JP2C1JJkoI2ZybrJGanJ2cUllTmp+gAHstlazwAAAA==[0mpetclinic-checkstyle" build number [8mha:////4IXOP8/zSKumpEO7Sjco5G9vnMcGtwRQdvV+XizDaC4iAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYZ/az8JP2C1JJkoI2ZybrJGanJ2cUllTmp+sYmAIs0XzvRAAAA[0m34
+ originally caused by:
+  Started by upstream project "[8mha:////4IsDEYQ8GWD7LfWaD7ue0KA4npdx21dXYwW/AHI5PRDVAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP2C1JJkoI2ZyfoADJtam8QAAAA=[0mpetclinic" build number [8mha:////4PaARjQBsMGjdStxSGZSse9GC9EisgMM3vmYl1WgUnQvAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZB/az8JP2C1JJkoI2ZyfrGFgDPlLo/xgAAAA==[0m38
+  originally caused by:
+   Started by user [8mha:////4NPafIm/qmVl9uVPEiJ4Nyp2QimJHSOLdG3OlnXxFlYwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mhme
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/petclinic-docker-build
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/plb-formation/spring-framework-petclinic.git
+ > git init /var/jenkins_home/workspace/petclinic-docker-build # timeout=10
+Fetching upstream changes from https://github.com/plb-formation/spring-framework-petclinic.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/plb-formation/spring-framework-petclinic.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/plb-formation/spring-framework-petclinic.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/plb-formation/spring-framework-petclinic.git # timeout=10
+Fetching upstream changes from https://github.com/plb-formation/spring-framework-petclinic.git
+ > git fetch --tags --progress -- https://github.com/plb-formation/spring-framework-petclinic.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 33d700ef8b639880a0d74d2c084751d72a0717d9 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 33d700ef8b639880a0d74d2c084751d72a0717d9 # timeout=10
+Commit message: "Update messages.properties"
+ > git rev-list --no-walk 33d700ef8b639880a0d74d2c084751d72a0717d9 # timeout=10
+Copied 1 artifact from "[8mha:////4AV64lQEePNR1C/WTf90Jw8CwkOFHbwAKzkISxDHb+XYAAAAjx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLGHg18/KT9IvSC1JBtqYmawPADt0tdmUAAAA[0mpetclinic" build number [8mha:////4EtJ3MxP/H14nQ8X79GcGL+e2TL136VI9gyF1JZKG47LAAAAkR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMhgApqhn5WfpF+QWpIMtDEzWd/YQh8AVdIWGZcAAAA=[0m38
+[petclinic-docker-build] $ /bin/bash -xe /tmp/jenkins5589091655181431736.sh
++ docker build -t petclinic-project:latest .
+Sending build context to Docker daemon  41.81MB
+Step 1/2 : FROM fabric8/tomcat-9
+latest: Pulling from fabric8/tomcat-9
+7dc0dca2b151: Pulling fs layer
+d8b9c218d964: Pulling fs layer
+3739b4b8d966: Pulling fs layer
+3d51b46300ba: Pulling fs layer
+513a484b7c05: Pulling fs layer
+d0218162c4b0: Pulling fs layer
+bc9413501019: Pulling fs layer
+daaadbc3a1ff: Pulling fs layer
+02c4bf6cd7a1: Pulling fs layer
+60a23e81b028: Pulling fs layer
+5bbe0c4b9c0a: Pulling fs layer
+e35f6538f3ae: Pulling fs layer
+6fc16d1c9523: Pulling fs layer
+1d0750c0d232: Pulling fs layer
+00baac3a90c4: Pulling fs layer
+f288b57f2817: Pulling fs layer
+3d51b46300ba: Waiting
+513a484b7c05: Waiting
+d0218162c4b0: Waiting
+daaadbc3a1ff: Waiting
+bc9413501019: Waiting
+02c4bf6cd7a1: Waiting
+5bbe0c4b9c0a: Waiting
+1d0750c0d232: Waiting
+e35f6538f3ae: Waiting
+00baac3a90c4: Waiting
+f288b57f2817: Waiting
+d8b9c218d964: Download complete
+3d51b46300ba: Verifying Checksum
+3d51b46300ba: Download complete
+513a484b7c05: Verifying Checksum
+513a484b7c05: Download complete
+d0218162c4b0: Verifying Checksum
+d0218162c4b0: Download complete
+7dc0dca2b151: Verifying Checksum
+7dc0dca2b151: Download complete
+bc9413501019: Download complete
+3739b4b8d966: Verifying Checksum
+3739b4b8d966: Download complete
+daaadbc3a1ff: Verifying Checksum
+daaadbc3a1ff: Download complete
+02c4bf6cd7a1: Download complete
+60a23e81b028: Verifying Checksum
+60a23e81b028: Download complete
+5bbe0c4b9c0a: Verifying Checksum
+5bbe0c4b9c0a: Download complete
+e35f6538f3ae: Download complete
+1d0750c0d232: Verifying Checksum
+1d0750c0d232: Download complete
+6fc16d1c9523: Verifying Checksum
+6fc16d1c9523: Download complete
+00baac3a90c4: Verifying Checksum
+00baac3a90c4: Download complete
+f288b57f2817: Verifying Checksum
+f288b57f2817: Download complete
+7dc0dca2b151: Pull complete
+d8b9c218d964: Pull complete
+3739b4b8d966: Pull complete
+3d51b46300ba: Pull complete
+513a484b7c05: Pull complete
+d0218162c4b0: Pull complete
+bc9413501019: Pull complete
+daaadbc3a1ff: Pull complete
+02c4bf6cd7a1: Pull complete
+60a23e81b028: Pull complete
+5bbe0c4b9c0a: Pull complete
+e35f6538f3ae: Pull complete
+6fc16d1c9523: Pull complete
+1d0750c0d232: Pull complete
+00baac3a90c4: Pull complete
+f288b57f2817: Pull complete
+Digest: sha256:d68d79d220c11dcf59b7a59a6114d7173fa1404fd46111c9b64f81dff072af7b
+Status: Downloaded newer image for fabric8/tomcat-9:latest
+ ---> 5d90e94ef52f
+Step 2/2 : COPY target/petclinic*.war /opt/tomcat/webapps/petclinic.war
+ ---> 46b757aea5ec
+Successfully built 46b757aea5ec
+Successfully tagged petclinic-project:latest
+Triggering a new build of [8mha:////4HX6Vphb2Kdk8pZZ70FYaEyCm1w6XkyfFw1ZnnhUyYNQAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgYF/az8JP2C1JJkoI2ZybolqcUluokFBTmZyYklmfl5+gAVs+ZR1QAAAA==[0mpetclinic-test-application
+Triggering a new build of [8mha:////4Ip7xbWJd3PTZtkUnlWBRsiYbPSS6njg4pEkNwAlUd32AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP2C1JJkoI2ZybolqcUluqWJJfoAQAgfsM0AAAA=[0mpetclinic-test-uat
+Finished: SUCCESS

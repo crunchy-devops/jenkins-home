@@ -1,0 +1,25 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-05-14 11:54:02.491 UTC</timestamp>
+  <md5sum>69ca51af4e9a67a1027a7f95b52c3e8f</md5sum>
+  <fileName>javax.servlet:servlet-api-2.5.jar</fileName>
+  <usages>
+    <entry>
+      <string>My_first_maven_build</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>hello_world_sonar/com.example.maven-project:webapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>My_first_maven_build/com.example.maven-project:webapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>hello_world_sonar</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

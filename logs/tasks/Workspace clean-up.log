@@ -1,6 +1,9 @@
-Started at Tue May 12 21:19:29 UTC 2020
+Started at Fri May 15 16:03:26 UTC 2020
+Checking hello_world_sonar
 Checking jmeter
 Checking jmeter-petclinic
+Checking my_first_job
+Checking My_first_maven_build
 Checking petclinic
 Checking petclinic-checkstyle
 Checking petclinic-docker-build
@@ -12,4 +15,4 @@ Checking petclinic-test-application
 Checking petclinic-test-uat
 Checking python-web-flask
 Checking python-web-flask-pipeline
-Finished at Tue May 12 21:19:29 UTC 2020. 40ms
+Finished at Fri May 15 16:03:26 UTC 2020. 40ms

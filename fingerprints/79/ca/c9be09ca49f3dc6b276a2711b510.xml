@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-05-14 11:53:54.392 UTC</timestamp>
+  <original>
+    <name>My_first_maven_build/com.example.maven-project:maven-project</name>
+    <number>1</number>
+  </original>
+  <md5sum>79cac9be09ca49f3dc6b276a2711b510</md5sum>
+  <fileName>com.example.maven-project:maven-project:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>My_first_maven_build</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>My_first_maven_build/com.example.maven-project:maven-project</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>hello_world_sonar/com.example.maven-project:maven-project</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>hello_world_sonar/com.example.maven-project:webapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>hello_world_sonar/com.example.maven-project:server</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>My_first_maven_build/com.example.maven-project:webapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>hello_world_sonar</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>My_first_maven_build/com.example.maven-project:server</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-05-14 12:01:11.618 UTC</timestamp>
+  <original>
+    <name>hello_world_sonar/com.example.maven-project:webapp</name>
+    <number>1</number>
+  </original>
+  <md5sum>60f5b0db538e81d658c55edcd25bc994</md5sum>
+  <fileName>com.example.maven-project:webapp.war</fileName>
+  <usages>
+    <entry>
+      <string>hello_world_sonar/com.example.maven-project:webapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>hello_world_sonar</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

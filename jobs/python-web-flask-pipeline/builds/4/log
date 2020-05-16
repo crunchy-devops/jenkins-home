@@ -1,0 +1,148 @@
+Started by user [8mha:////4NPafIm/qmVl9uVPEiJ4Nyp2QimJHSOLdG3OlnXxFlYwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mhme
+Obtained Jenkinsfile from git https://github.com/crunchy-devops/python-web-flask.git
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4KUf704zDPVH5kxrgOyY5zQ+fCInK+1NwzMThKSWBKXSAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4Mi+XTAq+o+lYep5HQH9ikk73dJAStU5q6HmPiIQb/PlAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4BNZ94BYdpOVntQ0uo0yKW++JG9VIEREktafEz6UVkPWAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/jenkins_home/workspace/python-web-flask-pipeline
+[8mha:////4Lyy/y87xND5j8MzZCmOgkhTP6gUkdfDZVYACmId5IOGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4BNaQt1jMHv0QnZxWm91XsgnD8tEbuU2dytFjkMTXQdwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4BKsdfJ5AFgreYiCid9Go/GOnumq392BwLkmBgor7msmAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4NIORCoulJDebExDOm+ZjCh5GaSFkcfMeQz84YTOuQlwAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/crunchy-devops/python-web-flask.git
+ > git init /var/jenkins_home/workspace/python-web-flask-pipeline # timeout=10
+Fetching upstream changes from https://github.com/crunchy-devops/python-web-flask.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/crunchy-devops/python-web-flask.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/crunchy-devops/python-web-flask.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/crunchy-devops/python-web-flask.git # timeout=10
+Fetching upstream changes from https://github.com/crunchy-devops/python-web-flask.git
+ > git fetch --tags --progress -- https://github.com/crunchy-devops/python-web-flask.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ed2b35647ed3fd1eeaa1c90068e0ea08f856fe0b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ed2b35647ed3fd1eeaa1c90068e0ea08f856fe0b # timeout=10
+Commit message: "initial commit"
+First time build. Skipping changelog.
+[8mha:////4C0EXDpL46BIZhuTymt/29LXvITpJn9BwDzvhw0q/F7wAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4EdrGUOGjiHDZ/OrI5CGkavEIDn0Az2r8hYfMRM0DaeKAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4MRm0mx3U0/rQHjKK5Cx4Mpu3TXoSCt4OLlZuABRyZ1lAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4K3+8k3XWZUGdEKbBLKO1UfclRGdgNxt1bDORchxIqZwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4OleP/l35TV8Zb2+7mia7QAEMgeoTMk7De5FHTdSAklkAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] isUnix
+[8mha:////4CiSzXETnUfFZu+cTTuC1q9RUoqkOZScGcb30cPgUv2FAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs35DNwLL4AAAA=[0m[Pipeline] sh
++ docker inspect -f . python:3.8.2-buster
+
+Error: No such object: python:3.8.2-buster
+[8mha:////4CIuxSswtiVyWSEg2Os0tEiA6bPxYB5gV7tww+H0Sb4TAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPYJ6rb91N6/ASOlMWO+AAAA[0m[Pipeline] isUnix
+[8mha:////4A3tRKkWjdkugOrFCkw7FtJD8bAwUot8jW5qDCBIER3AAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKawcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMPsEddt+au/fYpQqer4AAAA=[0m[Pipeline] sh
++ docker pull python:3.8.2-buster
+3.8.2-buster: Pulling from library/python
+90fe46dd8199: Pulling fs layer
+35a4f1977689: Pulling fs layer
+bbc37f14aded: Pulling fs layer
+74e27dc593d4: Pulling fs layer
+4352dcff7819: Pulling fs layer
+deb569b08de6: Pulling fs layer
+98fd06fa8c53: Pulling fs layer
+7b9cc4fdefe6: Pulling fs layer
+512732f32795: Pulling fs layer
+deb569b08de6: Waiting
+98fd06fa8c53: Waiting
+7b9cc4fdefe6: Waiting
+512732f32795: Waiting
+74e27dc593d4: Waiting
+4352dcff7819: Waiting
+35a4f1977689: Verifying Checksum
+35a4f1977689: Download complete
+bbc37f14aded: Verifying Checksum
+bbc37f14aded: Download complete
+90fe46dd8199: Verifying Checksum
+90fe46dd8199: Download complete
+74e27dc593d4: Verifying Checksum
+74e27dc593d4: Download complete
+deb569b08de6: Verifying Checksum
+deb569b08de6: Download complete
+7b9cc4fdefe6: Download complete
+98fd06fa8c53: Verifying Checksum
+98fd06fa8c53: Download complete
+512732f32795: Verifying Checksum
+512732f32795: Download complete
+4352dcff7819: Verifying Checksum
+4352dcff7819: Download complete
+90fe46dd8199: Pull complete
+35a4f1977689: Pull complete
+bbc37f14aded: Pull complete
+74e27dc593d4: Pull complete
+4352dcff7819: Pull complete
+deb569b08de6: Pull complete
+98fd06fa8c53: Pull complete
+7b9cc4fdefe6: Pull complete
+512732f32795: Pull complete
+Digest: sha256:cf3cb1e9905c3a3e4c0478a6eda08c9613f77de628f4e1fb91de089ec9707831
+Status: Downloaded newer image for python:3.8.2-buster
+docker.io/library/python:3.8.2-buster
+[8mha:////4HYnjNbcJ9fz7OeeZovI/QPC99s6e0t+zVMUfeoNzoOwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUXVgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9AHlOOwDCAAAA[0m[Pipeline] withDockerContainer
+Jenkins seems to be running inside container aeb990ea78b2d18e004ba1decdd698946805613dba1c0c7cf86b46a6a631aead
+$ docker run -t -d -u 0:0 -w /var/jenkins_home/workspace/python-web-flask-pipeline --volumes-from aeb990ea78b2d18e004ba1decdd698946805613dba1c0c7cf86b46a6a631aead -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** python:3.8.2-buster cat
+$ docker top d65be9dbab531706ca6f168b7d60d6c3009d465cc049c66476c182cb9eea92c6 -eo pid,comm
+[8mha:////4DjwyEQGG9sDfavLRF+FlYi8CaoTpDIFhdcANUuT4fK2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] {
+[8mha:////4PSWw6MGt7Lx2iJYGRHLeqA60ydsaGSLJAHuNEm/rOY/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] stage
+[8mha:////4AY8/P7pQWgUTrKjvBcsTFI79f6tcWM8IE1m70SyepmHAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (build)
+[8mha:////4MsrG25ztxVWtHUD/v4IenOn0nk9yRt0h2sCTb9lffaQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] sh
++ pip install -r requirements.txt
+Collecting Click==7.1.2
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+Collecting Flask==1.1.2
+  Downloading Flask-1.1.2-py2.py3-none-any.whl (94 kB)
+Collecting itsdangerous==1.1.0
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Jinja2==2.11.2
+  Downloading Jinja2-2.11.2-py2.py3-none-any.whl (125 kB)
+Collecting MarkupSafe==1.1.1
+  Downloading MarkupSafe-1.1.1-cp38-cp38-manylinux1_x86_64.whl (32 kB)
+Collecting Werkzeug==1.0.1
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+Collecting xmlrunner==1.7.7
+  Downloading xmlrunner-1.7.7.tar.gz (5.6 kB)
+Building wheels for collected packages: xmlrunner
+  Building wheel for xmlrunner (setup.py): started
+  Building wheel for xmlrunner (setup.py): finished with status 'done'
+  Created wheel for xmlrunner: filename=xmlrunner-1.7.7-py3-none-any.whl size=6235 sha256=fd0eca7b72e5c5e79f3da2584f618f76d23f8aad1b8bfdb21f2dcb9e2b969cd5
+  Stored in directory: /root/.cache/pip/wheels/e1/3d/cd/c11cdd59056c25a948cd2f91440817a72207baadf5d6f5f8b2
+Successfully built xmlrunner
+Installing collected packages: Click, itsdangerous, MarkupSafe, Jinja2, Werkzeug, Flask, xmlrunner
+Successfully installed Click-7.1.2 Flask-1.1.2 Jinja2-2.11.2 MarkupSafe-1.1.1 Werkzeug-1.0.1 itsdangerous-1.1.0 xmlrunner-1.7.7
+[8mha:////4AgOS4cr76Cx64Y6BqVt9I0XmGymQTVGf9AeQnid23IgAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4Oxof7MBJjNaNERdjnnVSrmSWuRiFsaGHv0EVQ/8VCqHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4HYbMmb/D7Wsdz3eCXjV/y97iaRu4xwNwxcPWYBbAlK4AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwMCAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g0UD6uJwgAAAA==[0m[Pipeline] stage
+[8mha:////4DKELFEl5+BrQlSGxNi7CR/lpzrZeMa10s8X0WQy4K5AAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] { (test)
+[8mha:////4Og0JkrycJSKd9r2Oeiy89iPL2yvPg8nzOHAvfM1tYlvAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] sh
++ python test.py
+
+Running tests...
+----------------------------------------------------------------------
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.007s
+
+OK
+
+Generating XML reports...
+Post stage
+[8mha:////4EpM6E0AFJCr9rNFw2kI0XdcnyCzCu5CH61bXh2P92k4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAG8UfaPvgAAAA==[0m[Pipeline] junit
+Recording test results
+[8mha:////4Iks2zwslJI6ITCVPsMtX1nA0iRjnjMJzxUWFLAYBrp0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g1GGkcWvgAAAA==[0m[Pipeline] }
+[8mha:////4M3wSzs28a18rlqOwk6HmVi6CVv4zk91/X6jCiUkie+MAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQYOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQEwPXV5vgAAAA==[0m[Pipeline] // stage
+[8mha:////4BYGvfntAm7Gpma+LIXY2YxNAVHgxnFnn1QImDzSoxjvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaBBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w9PeWmevgAAAA==[0m[Pipeline] }
+$ docker stop --time=1 d65be9dbab531706ca6f168b7d60d6c3009d465cc049c66476c182cb9eea92c6
+$ docker rm -f d65be9dbab531706ca6f168b7d60d6c3009d465cc049c66476c182cb9eea92c6
+[8mha:////4JyfA8txumZlPCNcx5M99QnT61S6fdj1qiOSzjL2a/7dAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICQqJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+lExZovgAAAA==[0m[Pipeline] // withDockerContainer
+[8mha:////4G8Sr7m9pTeFRMPRTOg5XJMXhKeuoN+rHqZXECEuYm+vAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRRImoaC03vMAkxtix7ox9Ial4EV/jD1hEomKL1c4283rDOic4UrLCGxwc5s6JGEZblpgoDddAk/B0ER1hpmCEMpOi3pwWVMQGllQ1rCRsDHaBskPLsJVeP3QTNNrmzKl8Bwm16+/whEoWM+vEX5gT7G5jnwl/nr8CmGNkqPdtqbb9AKNVLj2+AAAA[0m[Pipeline] }
+[8mha:////4N6F3y52leNDCjGamQmTuAzbTzCE5lbN4ODM7OzDHlEgAAAApB+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGLDp0SpaC03nMAkxjixdoPt4FSciKtxBywiUTHFaN407/WGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQnnY59ptP5sXvcy+AAAA[0m[Pipeline] // withEnv
+[8mha:////4MO49R1A2b4PE6J81vuhBc8wlSNGf4s6K4wTp4lYuor4AAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9e8C3YvQAAAA==[0m[Pipeline] }
+[8mha:////4PHweYGSO+33R+DHDR/XqpBGD7r5T2jIbvwucKN2vl7gAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/tuWn0vQAAAA==[0m[Pipeline] // node
+[8mha:////4JVcgpYsBvJdIgssEzW1Jj8WzHUOkpuRe991sd5c/Te4AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPy6AOvr0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

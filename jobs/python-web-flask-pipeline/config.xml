@@ -36,7 +36,7 @@
           <excludeBranchesSpec></excludeBranchesSpec>
           <sourceBranchRegex></sourceBranchRegex>
           <targetBranchRegex></targetBranchRegex>
-          <secretToken>{AQAAABAAAAAQY6TlPfEXR6YyxhNlek7IqItDBH9XCrSxjSCbEIbt8B8=}</secretToken>
+          <secretToken>{AQAAABAAAAAQ5mj75/IV2O9jAAXU5YrEvPkmpmpWSnEQ0RFhjsaxKFE=}</secretToken>
           <pendingBuildName></pendingBuildName>
           <cancelPendingBuildsOnUpdate>false</cancelPendingBuildsOnUpdate>
         </com.dabsquared.gitlabjenkins.GitLabPushTrigger>
@@ -48,7 +48,7 @@
       <configVersion>2</configVersion>
       <userRemoteConfigs>
         <hudson.plugins.git.UserRemoteConfig>
-          <url>http://gitlab-ce/stagiaire/python-web-flask.git</url>
+          <url>https://github.com/crunchy-devops/python-web-flask.git</url>
         </hudson.plugins.git.UserRemoteConfig>
       </userRemoteConfigs>
       <branches>

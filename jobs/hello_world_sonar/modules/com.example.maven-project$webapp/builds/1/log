@@ -1,0 +1,58 @@
+[INFO] 
+[INFO] ------------------< com.example.maven-project:webapp >------------------
+[INFO] Building Webapp 1.0-SNAPSHOT                                       [3/3]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4HT8YC5i/1cX2t+5WWhd4iqO+s7pzjULqQvoz1ptiER4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ webapp ---
+[INFO] 
+[8mha:////4HT8YC5i/1cX2t+5WWhd4iqO+s7pzjULqQvoz1ptiER4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ webapp ---
+[debug] execute contextualize
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/hello_world_sonar/webapp/src/main/resources
+[INFO] 
+[8mha:////4HT8YC5i/1cX2t+5WWhd4iqO+s7pzjULqQvoz1ptiER4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ webapp ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4HT8YC5i/1cX2t+5WWhd4iqO+s7pzjULqQvoz1ptiER4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ webapp ---
+[debug] execute contextualize
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/jenkins_home/workspace/hello_world_sonar/webapp/src/test/resources
+[INFO] 
+[8mha:////4HT8YC5i/1cX2t+5WWhd4iqO+s7pzjULqQvoz1ptiER4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ webapp ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4HT8YC5i/1cX2t+5WWhd4iqO+s7pzjULqQvoz1ptiER4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ webapp ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/jenkins_home/workspace/hello_world_sonar/webapp/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[JENKINS] Recording test results
+[INFO] 
+[8mha:////4HT8YC5i/1cX2t+5WWhd4iqO+s7pzjULqQvoz1ptiER4AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-war-plugin:2.2:war (default-war) @ webapp ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [webapp] in [/var/jenkins_home/workspace/hello_world_sonar/webapp/target/webapp]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/jenkins_home/workspace/hello_world_sonar/webapp/src/main/webapp]
+[INFO] Webapp assembled in [23 msecs]
+[INFO] Building war: /var/jenkins_home/workspace/hello_world_sonar/webapp/target/webapp.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Maven Project 1.0-SNAPSHOT:
+[INFO] 
+[INFO] Maven Project ...................................... SUCCESS [  9.981 s]
+[INFO] Server ............................................. SUCCESS [  2.856 s]
+[INFO] Webapp ............................................. SUCCESS [  0.924 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.915 s
+[INFO] Finished at: 2020-05-14T12:01:22Z
+[INFO] ------------------------------------------------------------------------
+Waiting for Jenkins to finish collecting data

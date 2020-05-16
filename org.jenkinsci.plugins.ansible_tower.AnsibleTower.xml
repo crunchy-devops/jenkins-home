@@ -1,0 +1,12 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.ansible__tower.AnsibleTowerGlobalConfig plugin="ansible-tower@0.14.1">
+  <towerInstallations>
+    <org.jenkinsci.plugins.ansible__tower.util.TowerInstallation>
+      <towerDisplayName>awx</towerDisplayName>
+      <towerURL>http://137.74.85.217:8180</towerURL>
+      <towerCredentialsId>awx_acces</towerCredentialsId>
+      <towerTrustCert>false</towerTrustCert>
+      <enableDebugging>false</enableDebugging>
+    </org.jenkinsci.plugins.ansible__tower.util.TowerInstallation>
+  </towerInstallations>
+</org.jenkinsci.plugins.ansible__tower.AnsibleTowerGlobalConfig>

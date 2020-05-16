@@ -1,0 +1,30 @@
+Started by user [8mha:////4NPafIm/qmVl9uVPEiJ4Nyp2QimJHSOLdG3OlnXxFlYwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZu/dLi1CL9xJTczDwAfXVmD8AAAAA=[0mhme
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/python-web-flask
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/crunchy-devops/python-web-flask.git
+ > git init /var/jenkins_home/workspace/python-web-flask # timeout=10
+Fetching upstream changes from https://github.com/crunchy-devops/python-web-flask.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/crunchy-devops/python-web-flask.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/crunchy-devops/python-web-flask.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/crunchy-devops/python-web-flask.git # timeout=10
+Fetching upstream changes from https://github.com/crunchy-devops/python-web-flask.git
+ > git fetch --tags --progress -- https://github.com/crunchy-devops/python-web-flask.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ed2b35647ed3fd1eeaa1c90068e0ea08f856fe0b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ed2b35647ed3fd1eeaa1c90068e0ea08f856fe0b # timeout=10
+Commit message: "initial commit"
+First time build. Skipping changelog.
+[python-web-flask] $ /bin/bash -xe /tmp/jenkins4137628637412282.sh
++ PYENV_HOME=/var/jenkins_home/workspace/python-web-flask/.sample1/
++ virtualenv --no-site-packages /var/jenkins_home/workspace/python-web-flask/.sample1/
+/tmp/jenkins4137628637412282.sh: line 3: virtualenv: command not found
+Build step 'Execute shell' marked build as failure
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: No test report files were found. Configuration error?
+Finished: FAILURE
